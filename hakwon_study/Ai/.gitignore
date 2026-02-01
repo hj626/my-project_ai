@@ -1,0 +1,33 @@
+# 가상환경 폴더 제외
+.venv/
+
+# 데이터셋 폴더 전체 제외
+dataset/
+
+# learning 폴더 내의 results 폴더만 제외
+results/
+
+# 모든 위치의 .zip 파일 제외
+*.zip
+
+# 노드모듈
+node_modules/
+legalAi.ipynb
+cpu.ipynb
+*.json
+*.html
+*.pt
+*.safetensors
+*.pth
+learning/save_mode1/*.txt
+
+# git rm --cached learning/save_mode2/*.txt
+# 깃 캐시 삭제
+
+
+# pkl_file 폴더 안의 모든 것무시
+
+!pkl_file/pkl/rowtest_pklFile.pkl
+!pkl_file/pkl/rowtrain_pklFile.pkl
+!pkl_file/deep_data/
+pkl_file/*
